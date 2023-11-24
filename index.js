@@ -16,4 +16,9 @@ app.get("/", (req, res) => {
     res.render("user/home");
   });
 
+//menu1
+app.get("/menu1", (req, res) => {
+  res.render("user/menu1");
+});
+
 app.listen(PORT);
