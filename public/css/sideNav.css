@@ -1,0 +1,33 @@
+nav {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e0e0e0;
+  margin: 0;
+  width: 10vw;
+  height: 100vh;
+  top: 10%;
+  position: absolute;
+}
+
+
+#sideNav {
+  display: flex;
+  flex-direction: column;
+  /* Mengubah arah menu menjadi vertikal */
+  align-items: top;
+  /* Pusatkan menu secara horizontal */
+  padding: 10px;
+}
+
+#sideNav a {
+  font-size: 18px;
+  /* Atur ukuran font sesuai kebutuhan */
+  text-decoration: none;
+  /* Untuk menghapus garis bawah default pada tautan */
+  color: #333;
+  /* Warna teks */
+  padding: 10%;
+  width: 8vw;
+}
