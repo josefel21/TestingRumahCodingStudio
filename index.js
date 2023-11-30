@@ -21,4 +21,14 @@ app.get("/menu1", (req, res) => {
   res.render("user/menu1");
 });
 
+//menu2
+app.get("/menu2", (req, res) => {
+  res.render("user/menu2");
+});
+
+//menu3
+app.get("/menu3", (req, res) => {
+  res.render("user/menu3");
+});
+
 app.listen(PORT);
