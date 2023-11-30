@@ -13,7 +13,17 @@ app.set("view engine", "ejs");
 
 //home
 app.get("/", (req, res) => {
-  res.render("user/home");
+    res.render("user/home");
+  });
+
+//menu1
+app.get("/menu1", (req, res) => {
+  res.render("user/menu1");
+});
+
+//menu2
+app.get("/menu2", (req, res) => {
+  res.render("user/menu2");
 });
 
 //menu3
