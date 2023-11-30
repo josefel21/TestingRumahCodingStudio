@@ -13,12 +13,12 @@ app.set("view engine", "ejs");
 
 //home
 app.get("/", (req, res) => {
-    res.render("user/home");
-  });
+  res.render("user/home");
+});
 
-//menu1
-app.get("/menu1", (req, res) => {
-  res.render("user/menu1");
+//menu3
+app.get("/menu3", (req, res) => {
+  res.render("user/menu3");
 });
 
 app.listen(PORT);
